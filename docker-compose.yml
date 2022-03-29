@@ -9,3 +9,12 @@ services:
       - ./api:/api
       - /api/node_modules
     container_name: API_TASK
+  
+  app:
+    build: ./app
+    ports:
+      - 4200:4200
+    volumes:
+      - ./app:/app
+      - /app/node_modules
+    container_name: APP_TASK

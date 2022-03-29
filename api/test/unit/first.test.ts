@@ -5,6 +5,7 @@ describe('test for test',()=>{
         const test:Test = new Test()
         
         const result:boolean = test.greetin()
+        console.log('prueba ci')
         
         expect(result).toBe(true)
     })

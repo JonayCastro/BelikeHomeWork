@@ -1,5 +1,5 @@
 export default class Test{
-    greetin():boolean{
-        return true
+    greeting():boolean{
+        return false
     }
 }
